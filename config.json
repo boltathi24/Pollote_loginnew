@@ -1,0 +1,17 @@
+{
+    "listeners": {
+        "*:8090": {
+            "pass": "applications/login_app"
+        }
+    },
+
+    "applications": {
+        "login_app": {
+            "type": "python 3.8",
+            "user": "athithan-7130",
+            "path": "/home/local/ZOHOCORP/athithan-7130/Desktop/Pollote_login_service",
+            "home": "/home/local/ZOHOCORP/athithan-7130/Desktop/Pollote_login_service/newvenv/",
+            "module": "app"
+        }
+    }
+}

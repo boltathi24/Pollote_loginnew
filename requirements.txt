@@ -1,0 +1,7 @@
+Flask
+pyjwt==1.5.3
+mongoengine
+passlib
+pyotp
+bcrypt
+pymongo[srv]
